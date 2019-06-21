@@ -1,4 +1,5 @@
 import { MamWriter, MamReader, MAM_MODE, MAM_SECURITY } from 'mam.ts';
+//Execute with: npx ts-node demo.ts
 
 const nodeUrl = 'https://nodes.thetangle.org:443';
 const seed = 'VXCYBERSECVXCYBERSECVXCYBERSEDDXCYBQRSECQXCYBERSECVXCYBERSECVXCYBERSECVXCYBERSECB'
@@ -29,3 +30,4 @@ async function SendData() {
 }
 
 SendData();
+
